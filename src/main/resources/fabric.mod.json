@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "firstversionblocklocker",
+  "version": "${version}",
+  "name": "FirstVersionBlockLocker",
+  "description": "Restreint l'inventaire créatif aux blocs disponibles dans une version Minecraft choisie. By FirstStudios.",
+  "authors": ["FirstStudios"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "main": ["com.example.versionlock.VersionLockMod"],
+    "client": ["com.example.versionlock.VersionLockClient"]
+  },
+  "mixins": ["versionlock.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

@@ -1,0 +1,15 @@
+# Gradle cache et build
+.gradle/
+build/
+
+# IntelliJ
+.idea/
+*.iml
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# macOS
+.DS_Store
